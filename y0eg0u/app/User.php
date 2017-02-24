@@ -14,7 +14,10 @@ class User extends Model
       return ['status' => 0, 'msg' => 'username and password are required'];
     return [
       'status'=>1,
-      'id'=>'001'
+      'data'=>[
+      'id'=>'001',
+      'username'=>Request::get('username')
+      ]
     ];
   }
 }

@@ -1,12 +1,8 @@
-# 框架：Laravel PHP 框架
-## 传参
-	
-请求url：< localhost/public/login>
-#### 接口描述： 登陆接口
+# README
 
-#### 请求参数
-* username
-* password
-#### 响应参数
-* status
-* id
+* 应聘岗位：PHP 后端开发工程师
+* 题目：开发登陆端口
+* 文件说明：
+	* public目录为网站根目录
+	* User.php为应用模型
+	* /api/user/login为测试端口url

@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
+Route::get('/api/user/login', function () {
   $user = new App\User();
   return $user ->login();
 });
